@@ -1,0 +1,86 @@
+body {
+    font-family:'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #000000;
+}
+header {
+    background-color: #000000;
+    color: #E07424;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+section {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+figure {
+    border: thin white solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: black;
+    color: white ;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  @media screen {
+    .container{
+      padding: 0px 40px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: #E07424;
+  }
+  a:hover{
+    color: white;
+    background-color: #E07424;
+    font-size: larger;
+  }
+  ul{
+    list-style-type: none;
+  }
+  ul a{
+    color: black
+  }
+  footer{
+    text-align: center;
+  }
+  td a {
+    color:white;
+    padding: 0 50px;
+  } 
+  .LeBron:hover{
+   font-family: cursive;
+   font-size: larger;
+   color:purple;
+   background-color: yellow;
+  }
+  .X1:hover{
+    font-family: cursive;
+    font-size: larger;
+    color: yellow;
+    background-color: red;
+  }
+  .Enterrada:hover{
+  font-family: cursive;
+  font-size: larger;
+  color: red;
+  background-color: blue;
+}
